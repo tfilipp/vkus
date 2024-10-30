@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "MM";
+    src: url("MM.woff");
+}
+.тело{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+::-webkit-scrollbar {
+    height: 12px;
+    width: 1px;
+    background: argb(0,0,0,1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFF;
+    -webkit-border-radius: 1ex;
+}
+::-webkit-scrollbar-corner {
+    background: #000;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.мурчаниеШутка {
+    font-family: MM, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.ручнойРакета {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
+.малый {
+    font-size: 10px;
+}
+.средний {
+    font-size: 25px;
+}
+.большой {
+    font-size: 50px;
+}
+.большойДинамик {
+    font-size: 50px;
+    transition: .4s ease-in-out;
+}
+.большойДинамик:hover {
+    transform: skew(-25deg);
+    font-size: 100px;
+}
+.контейнер{
+    width: 1300px;
+    padding: 100px 15px;
+    margin: auto;
+}
+.титл-секции{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.вкусныйлого{
+    margin: auto;
+    position: relative;
+    top: 15px;
+}
+.центр {
+    text-align: center;
+}
+.жирный {
+    font-weight: 900;
+}
+.большe{
+  font-size: 60px;  
+}
+.три {
+    width: 20%;
+}
+.карточкиТут{
+    text-align: center;
+    align-items: center;
+    
+}
+.слева {
+    text-align: left;
+}
+.справа {
+    text-align: right;
+}
+.карточка {
+    margin: 100px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 20px;
+}
+.вертикаль{
+    margin: 100px;
+    height: 150px;
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 20px;
+}
+.ПЛИТА {
+    width: 75%;
+}
+.кругляш{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.верхняя-полоса-менюшная{
+    height: 110px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid #131313;
+    line-height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1001923021030128;
+    backdrop-filter: blur(10px);
+}   
+.панель-ссылок a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-right: 10px;
+}
+.панель-ссылок {
+    position: relative;
+}
+.пониже {
+    margin-top: 50px;
+}
+.кусок {
+    height: 100vh;
+    width: 100%;
+    
+}
+.самыйКонтент{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.наследство{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    border: 3px dashed greenyellow;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: .2s ease-in-out;
+}
+.наследство:hover{
+    border: 7px dashed greenyellow;
+    background-color: rgba(172, 255, 47, 0.39); 
+    transform: perspective(400px) rotateY(-40deg) translate(-150px, -50px) skew(10deg, 20deg) scale(400%, 400%);     
+}
